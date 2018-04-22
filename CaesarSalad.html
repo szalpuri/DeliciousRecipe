@@ -1,0 +1,139 @@
+<!Doctype html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+
+            font-size: 18px;
+            padding: 2px;
+        }
+
+        body {
+            background: black;
+            color: white;
+        }
+
+        #youtube-player {
+            width: 100%!important;
+            height: 100%;
+            margin: 0;
+            padding: 0
+        }
+
+        #recipe {
+
+            font-family: cursive;
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body>
+        <a class="link" style="color:  #7600A9; font-weight:bold;   text-decoration: none;"href="index.html">Back to Home-></a></div><br/>
+    <h1 style="text-align:center; ">Caesar Salad</h1>
+    <div id="video">
+        <iframe id="youtube-player" src="https://www.youtube.com/embed/ys2tX2xM70Y" frameborder="0" allow="autoplay; encrypted-media"
+            allowfullscreen></iframe>
+    </div>
+    <p></p>
+    <div id="recipe">
+        <b>Ingredients:-</b>
+        <br/>
+        <b>
+            <i>For the Mayonnaise Dressing:-</i>
+        </b>
+        <br/> 8-10 Garlic cloves
+        <br/> ½ tsp. Anchovies
+        <br/> 1 tbsp. Caper Berries
+        <br/> 2 tbsp. Mayonnaise
+        <br/> Dill Leaves
+        <br/> 2 tbsp. Parmesan Cheese, grated
+        <br/>
+        <br/>
+
+        <b>
+            <i>For the Lettuce Dressing:-</i>
+        </b>
+        <br/> Water + Salt
+        <br/> Ice Bath
+        <br/> Iceberg Lettuce
+        <br/> Salt, to taste
+        <br/> Black Pepper, freshly ground
+        <br/> Parmesan Cheese
+        <br/> Dill Leaves
+        <br/>
+        <br/>
+
+        <b>
+            <i>For the Cooked Garlic-Tomato:-</i>
+        </b>
+        <br/> 1 tsp. Olive Oil
+        <br/> Black Pepper Powder, to taste
+        <br/> Salt, to taste
+        <br/> 5-6 Garlic cloves
+        <br/> 6-7 Cherry Tomatoes
+        <br/>
+        <br/>
+
+        <b>
+            <i>For the Krutons:-</i>
+        </b>
+        <br/> Bugget Bread, diced into bite-sized pieces
+        <br/> 1 tsp. Olive Oil
+        <br/> Salt, to taste
+        <br/> Black Pepper Powder, to taste
+        <br/>
+        <br/>
+
+        <b>
+            <i>For the Salad:-</i>
+        </b>
+        <br/> Fresh Iceberg Lettuce
+        <br/> Fresh Romaine Lettuce
+        <br/> Mayonnaise Dressing
+        <br/> Lettuce Dressing
+        <br/> Cooked Garlic Tomato
+        <br/> Krutons
+        <br/> Parmesan Cheese
+        <br/> Pepper Cheese
+        <br/>
+        <br/>
+
+
+        <b>Method:-</b>
+        <br/> 1. In a mixer/grinder, coarsely grind together garlic, anchovies and caper berries.
+        <br/> 2. Transfer to a bowl and add mayonnaise, dill leaves, parmesan and mix well.
+        <br/> 3. Boil water and add salt to it. Add lettuce to it for 30 seconds and transfer it to an ice bath.
+        <br/> 4. Then grind the lettuce with black pepper, parmesan leaves and dill leaves to a coarse paste.
+        <br/> 5. In a pan heat olive oil and add salt, pepper, garlic and cherry tomatoes to it. Saute lightly and keep aside.
+        <br/> 6. In the same pan add the krutons followed by olive oil and black pepper. Toss lightly.
+        <br/> 7. Assemble and toss the salad as shown in the video and serve.
+        <br/>
+        <br/> Caeser Salad is ready to eat!
+    </div>
+    <p></p>
+    Restaurants providing this authentic dish can be found at below location
+    <p/>
+    <div id="googleMap" style="width:100%;height:400px;"></div>
+    <p></p>
+
+    <footer>&copy; JSP 2018</footer>
+    <script src="cordova.js"></script>
+
+    <script>
+        function myMap() {
+            var mapProp = {
+                center: new google.maps.LatLng(51.508742, -0.120850),
+                zoom: 5,
+            };
+            var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+        }
+    </script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+
+</body>
+
+</html>
