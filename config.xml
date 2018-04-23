@@ -11,4 +11,8 @@
         Surbhi
     </author>
     <access origin="*" />
+    <preference name="AllowInLineMediaPlayback" value="true" />
+     <preference name="MediaPlaybackRequiresUserAction" value="false" />
+    <allow-navigation href="*youtube*"/>
+    <plugin name="cordova-plugin-whitelist" spec="^1.3.3" />
 </widget>
